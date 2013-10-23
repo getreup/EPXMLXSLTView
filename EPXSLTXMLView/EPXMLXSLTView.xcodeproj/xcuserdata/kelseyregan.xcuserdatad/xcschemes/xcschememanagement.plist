@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EPXMLXSLTView copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>EPXMLXSLTView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>EPXSLTXMLView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>89E8C3F218174DDC0098A681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E8C41618175BCC0098A681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E8C42D18175BF10098A681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E8C44318175BF20098A681</key>
 		<dict>
 			<key>primary</key>
 			<true/>

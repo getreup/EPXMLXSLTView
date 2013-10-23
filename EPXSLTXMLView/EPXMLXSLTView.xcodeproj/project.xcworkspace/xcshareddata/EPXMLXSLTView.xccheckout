@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F29D1DF9-B407-4D6C-8795-8CB98A839B3F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EPXMLXSLTView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2B10BE54-277E-47F8-B9F3-7A215DB46184</key>
+		<string>https://github.com/KelseyRegan/EPXSLTXMLView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EPXSLTXMLView/EPXMLXSLTView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2B10BE54-277E-47F8-B9F3-7A215DB46184</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KelseyRegan/EPXSLTXMLView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2B10BE54-277E-47F8-B9F3-7A215DB46184</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2B10BE54-277E-47F8-B9F3-7A215DB46184</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EPXSLTXMLView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
