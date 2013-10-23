@@ -109,10 +109,10 @@ static NSMutableArray* viewsToLoad;
     // Disable callout
     [webView stringByEvaluatingJavaScriptFromString:@"document.documentElement.style.webkitTouchCallout='none';"];
     
-//    if( [self.delegate respondsToSelector:@selector(XMLXSLTView:loadedHTML:)] )
+    if( [self.delegate respondsToSelector:@selector(XMLXSLTView:loadedHTML:)] )
     {
         NSString *html = [webView stringByEvaluatingJavaScriptFromString:@"document.documentElement.innerHTML"];
-//        [self.delegate XMLXSLTView:self loadedHTML:html];
+        [self.delegate XMLXSLTView:self loadedHTML:html];
     }
     
     if( [self.delegate respondsToSelector:@selector(didFinishLoadXMLXSLTView:)] )

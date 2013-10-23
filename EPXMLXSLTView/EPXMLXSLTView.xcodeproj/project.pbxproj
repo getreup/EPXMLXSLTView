@@ -11,13 +11,11 @@
 		89D30C02181766EB0099B31B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C412181752E70098A681 /* ViewController.m */; };
 		89D30C03181766ED0099B31B /* EPXMLXSLTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C40E181752C90098A681 /* EPXMLXSLTView.m */; };
 		89D30C04181767110099B31B /* test.xslt in Resources */ = {isa = PBXBuildFile; fileRef = 89E8C414181756780098A681 /* test.xslt */; };
+		89D30C05181769610099B31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C3E718174DDC0098A681 /* main.m */; };
+		89D30C06181769740099B31B /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C3EB18174DDC0098A681 /* EPAppDelegate.m */; };
 		89E8C42F18175BF20098A681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3DB18174DDC0098A681 /* Foundation.framework */; };
 		89E8C43018175BF20098A681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3DD18174DDC0098A681 /* CoreGraphics.framework */; };
 		89E8C43118175BF20098A681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3DF18174DDC0098A681 /* UIKit.framework */; };
-		89E8C43718175BF20098A681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89E8C43518175BF20098A681 /* InfoPlist.strings */; };
-		89E8C43918175BF20098A681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C43818175BF20098A681 /* main.m */; };
-		89E8C43D18175BF20098A681 /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8C43C18175BF20098A681 /* EPAppDelegate.m */; };
-		89E8C43F18175BF20098A681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E8C43E18175BF20098A681 /* Images.xcassets */; };
 		89E8C44518175BF20098A681 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3F418174DDC0098A681 /* XCTest.framework */; };
 		89E8C44618175BF20098A681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3DB18174DDC0098A681 /* Foundation.framework */; };
 		89E8C44718175BF20098A681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E8C3DF18174DDC0098A681 /* UIKit.framework */; };
@@ -47,9 +45,6 @@
 		89E8C3EB18174DDC0098A681 /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
 		89E8C3ED18174DDC0098A681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89E8C3F418174DDC0098A681 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		89E8C3FC18174DDD0098A681 /* EPXSLTXMLViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPXSLTXMLViewTests-Info.plist"; sourceTree = "<group>"; };
-		89E8C3FE18174DDD0098A681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89E8C40018174DDD0098A681 /* EPXSLTXMLViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPXSLTXMLViewTests.m; sourceTree = "<group>"; };
 		89E8C40A181751300098A681 /* EPXMLXSLTView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EPXMLXSLTView.storyboard; sourceTree = "<group>"; };
 		89E8C40D181752C90098A681 /* EPXMLXSLTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPXMLXSLTView.h; sourceTree = "<group>"; };
 		89E8C40E181752C90098A681 /* EPXMLXSLTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPXMLXSLTView.m; sourceTree = "<group>"; };
@@ -57,15 +52,7 @@
 		89E8C411181752E70098A681 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89E8C412181752E70098A681 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89E8C414181756780098A681 /* test.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xslt; sourceTree = "<group>"; };
-		89E8C42918175BCC0098A681 /* EPXMLXSLTView copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EPXMLXSLTView copy-Info.plist"; path = "/Users/kelseyregan/Desktop/QuickMobile CheckOut/Checkouts/EPXSLTXMLView/EPXSLTXMLView/EPXMLXSLTView copy-Info.plist"; sourceTree = "<absolute>"; };
 		89E8C42E18175BF10098A681 /* EPXMLXSLTView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPXMLXSLTView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89E8C43418175BF20098A681 /* EPXMLXSLTView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPXMLXSLTView-Info.plist"; sourceTree = "<group>"; };
-		89E8C43618175BF20098A681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89E8C43818175BF20098A681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89E8C43A18175BF20098A681 /* EPXMLXSLTView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPXMLXSLTView-Prefix.pch"; sourceTree = "<group>"; };
-		89E8C43B18175BF20098A681 /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
-		89E8C43C18175BF20098A681 /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
-		89E8C43E18175BF20098A681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89E8C44418175BF20098A681 /* EPXMLXSLTViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPXMLXSLTViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E8C44C18175BF20098A681 /* EPXMLXSLTViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPXMLXSLTViewTests-Info.plist"; sourceTree = "<group>"; };
 		89E8C44E18175BF20098A681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -100,12 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				89E8C3E118174DDC0098A681 /* EPXMLXSLTView */,
-				89E8C3FA18174DDD0098A681 /* EPXSLTXMLViewTests */,
-				89E8C43218175BF20098A681 /* EPXMLXSLTView */,
 				89E8C44A18175BF20098A681 /* EPXMLXSLTViewTests */,
 				89E8C3DA18174DDC0098A681 /* Frameworks */,
 				89E8C3D918174DDC0098A681 /* Products */,
-				89E8C42918175BCC0098A681 /* EPXMLXSLTView copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,24 +140,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		89E8C3FA18174DDD0098A681 /* EPXSLTXMLViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				89E8C40018174DDD0098A681 /* EPXSLTXMLViewTests.m */,
-				89E8C3FB18174DDD0098A681 /* Supporting Files */,
-			);
-			path = EPXSLTXMLViewTests;
-			sourceTree = "<group>";
-		};
-		89E8C3FB18174DDD0098A681 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				89E8C3FC18174DDD0098A681 /* EPXSLTXMLViewTests-Info.plist */,
-				89E8C3FD18174DDD0098A681 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		89E8C40C181752B10098A681 /* EPXMLXSLTView */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,28 +148,6 @@
 				89E8C40E181752C90098A681 /* EPXMLXSLTView.m */,
 			);
 			path = EPXMLXSLTView;
-			sourceTree = "<group>";
-		};
-		89E8C43218175BF20098A681 /* EPXMLXSLTView */ = {
-			isa = PBXGroup;
-			children = (
-				89E8C43B18175BF20098A681 /* EPAppDelegate.h */,
-				89E8C43C18175BF20098A681 /* EPAppDelegate.m */,
-				89E8C43E18175BF20098A681 /* Images.xcassets */,
-				89E8C43318175BF20098A681 /* Supporting Files */,
-			);
-			path = EPXMLXSLTView;
-			sourceTree = "<group>";
-		};
-		89E8C43318175BF20098A681 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				89E8C43418175BF20098A681 /* EPXMLXSLTView-Info.plist */,
-				89E8C43518175BF20098A681 /* InfoPlist.strings */,
-				89E8C43818175BF20098A681 /* main.m */,
-				89E8C43A18175BF20098A681 /* EPXMLXSLTView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		89E8C44A18175BF20098A681 /* EPXMLXSLTViewTests */ = {
@@ -300,10 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E8C43718175BF20098A681 /* InfoPlist.strings in Resources */,
 				89D30C01181766BF0099B31B /* EPXMLXSLTView.storyboard in Resources */,
 				89D30C04181767110099B31B /* test.xslt in Resources */,
-				89E8C43F18175BF20098A681 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,9 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D30C02181766EB0099B31B /* ViewController.m in Sources */,
-				89E8C43918175BF20098A681 /* main.m in Sources */,
+				89D30C05181769610099B31B /* main.m in Sources */,
 				89D30C03181766ED0099B31B /* EPXMLXSLTView.m in Sources */,
-				89E8C43D18175BF20098A681 /* EPAppDelegate.m in Sources */,
+				89D30C06181769740099B31B /* EPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,22 +294,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				89E8C3E518174DDC0098A681 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		89E8C3FD18174DDD0098A681 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89E8C3FE18174DDD0098A681 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		89E8C43518175BF20098A681 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89E8C43618175BF20098A681 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -463,6 +389,7 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPXMLXSLTView/EPXMLXSLTView-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -481,6 +408,7 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPXMLXSLTView/EPXMLXSLTView-Prefix.pch";
 				INFOPLIST_FILE = "EPXMLXSLTView/EPXMLXSLTView-Info.plist";
